@@ -1,0 +1,3 @@
+//modules are generally use to reuse the same name of function and class or variable names in more than one file.we can redeclare same name.so we need to make module
+//therefore before the reused function or class,we use keyword export default
+//above step is called modular programming

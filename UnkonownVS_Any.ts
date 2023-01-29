@@ -1,0 +1,26 @@
+//suppose user is filling number inplace of product name.Then in that
+//case it is difficult to know about product if we are using any.
+//therefore we use unknown as a predefine keyword\
+//example using any
+/*let data:any;
+data=20;
+data="ram";
+let item:string;
+item=data; *///here we dont get error if we use any.if you use unknown you get error
+//In order to use item=data .use if else condition like->best practice
+/**
+ * let data:unknown;
+data=20;
+data="ram";
+let item:string;
+if(typeof data =="string"){ //here typeof is keyword
+item=data;
+}
+ */
+let data:unknown;
+data=20;
+data="ram";
+let item:string;
+if(typeof data ==="string"){ //here typeof is keyword.here string is keyword                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+item=data
+}
